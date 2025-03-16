@@ -165,6 +165,16 @@ padding: 24px 0;
 
 /*1 section*/
 
+.office {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    background-position: center center;
+    margin: 0px auto;
+    padding: 188px 0px;
+}
+
 .main-page-title {
     background: #2E2F42;
     padding: 188px 0;
