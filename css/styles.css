@@ -176,7 +176,8 @@ letter-spacing: 0.02em;
 text-decoration: none;
 font-style: normal;
 cursor: pointer;
-color: #434455; 
+color: #434455;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contakt .contakt-link:hover, 
@@ -184,7 +185,7 @@ color: #434455;
 color: #404bbf;
 }
 
-/*1 section*/
+/*-------------------------1 section------------------------*/
 
 .main-page-title {
 background: #2E2F42;
@@ -225,6 +226,7 @@ min-width: 169px;
 height: 56px;
 border: none;
 cursor: pointer;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-order-service:hover,
@@ -357,7 +359,6 @@ align-items: center;
 justify-content: center;
 flex-direction: row;
 gap: 24px;
-margin-top: 8px;
 }
 
 
@@ -524,6 +525,7 @@ display: block;
 unicode-bidi: isolate;
 }
 
+
 .footer-text {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -534,20 +536,18 @@ color: #fff;
 }
 
 .footer-social-text {
-font-weight: 500;
+font-family: "Roboto", sans-serif;
 margin-bottom: 16px;
-color: #fff;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
 
 .list-social {
-justify-content: center;
-align-items: baseline;
-
-
 display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
 gap: 16px;
 }
 
@@ -575,5 +575,5 @@ transition: background-color 250ms (0.4, 0, 0.2, 1);
 
 .social-links:hover,
 .social-links:focus {
-background-color: #404bbf;
+background-color: #31d0aa;
 }
