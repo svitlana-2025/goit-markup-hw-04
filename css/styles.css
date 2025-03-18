@@ -550,6 +550,10 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
+.list-social-footer {
+display: flex;
+gap: 16px;
+}
 
 .footer-list-social {
 margin-top: 0;
